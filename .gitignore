@@ -1,0 +1,8 @@
+# Environment variables
+.env
+
+# Generated files
+index.html
+
+# Node modules
+node_modules/

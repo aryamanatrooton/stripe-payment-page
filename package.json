@@ -1,0 +1,16 @@
+{
+  "name": "stripe-pricing-page",
+  "version": "1.0.0",
+  "description": "Stripe pricing page",
+  "main": "index.js",
+  "scripts": {
+    "build": "node build.js",
+    "start": "npm run build && http-server -o"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
